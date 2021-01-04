@@ -1,7 +1,8 @@
 _extends: .github:.github/_opensource.yml
 
 repository:
-  name: open-source-template
-  description: A basic template for creating new repositories
-  topics: github, configuration, templates
-  is_template: true
+  name: gcloud-configuration-ohmyzsh-plugin
+  description: A simple oh-my-zsh plugin to display the active gcloud configuration
+  topics: ohmyzsh, gcloud
+  is_template: false
+  delete_branch_on_merge: true
