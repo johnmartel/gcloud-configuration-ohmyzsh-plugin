@@ -39,7 +39,7 @@ This plugin depends on [jq](https://stedolan.github.io/jq/). To install it:
 
    ```shell script
    mkdir -p $ZSH_CUSTOM/plugins/gcloudconfig
-   curl https://raw.githubusercontent.com/johnmartel/gcloud-configuration-ohmyzsh-plugin/master/gcloudconfig.plugin.zsh -o $ZSH_CUSTOM/plugins/gcloufconfig
+   curl https://raw.githubusercontent.com/johnmartel/gcloud-configuration-ohmyzsh-plugin/master/gcloudconfig.plugin.zsh -o $ZSH_CUSTOM/plugins/gcloudconfig
    ```
 
 1. Add the plugin to your ZSH configuration
