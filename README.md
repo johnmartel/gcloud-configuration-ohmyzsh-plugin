@@ -35,13 +35,11 @@ This plugin depends on [jq](https://stedolan.github.io/jq/). To install it:
 
 ## Installation
 
-1. Clone this repository
-
-1. Copy the plugin file to the custom plugins well-known location
+1. Download the plugin file to the custom plugins well-known location
 
    ```shell script
    mkdir -p $ZSH_CUSTOM/plugins/gcloudconfig
-   cp gcloudconfig.plugin.zsh $ZSH_CUSTOM/plugins/gcloufconfig
+   curl https://raw.githubusercontent.com/johnmartel/gcloud-configuration-ohmyzsh-plugin/master/gcloudconfig.plugin.zsh -o $ZSH_CUSTOM/plugins/gcloufconfig
    ```
 
 1. Add the plugin to your ZSH configuration
