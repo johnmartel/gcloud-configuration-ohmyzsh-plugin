@@ -18,7 +18,7 @@ This plugin depends on [jq](https://stedolan.github.io/jq/). To install it:
 
 1. Clone this repository
 
-1.
+1. Copy the plugin file to the custom plugins well-known location
 
    ```shell script
    mkdir -p $ZSH_CUSTOM/plugins/gcloudconfig
