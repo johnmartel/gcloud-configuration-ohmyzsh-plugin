@@ -12,7 +12,7 @@ If you are using `gcloud` directly or indirectly (such as when using Terraform) 
 properties. Google lists the following use cases:
 
 > Configurations are especially useful if you:
-> 
+>
 > - Work with multiple projects. You can create a separate configuration for each project.
 > - Use multiple accounts, for example, a user account and a service account, etc.
 > - Perform generally orthogonal tasks (work on an appengine app in project foo, administer a Google Compute Engine
